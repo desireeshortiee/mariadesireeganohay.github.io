@@ -1,0 +1,68 @@
+body {
+    background-color: #FFDEE9; /* Keep the baby pink background */
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: 20px;
+}
+header h1 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+ul {
+    text-align: left;
+    padding-left: 40px;
+}
+
+li {
+    list-style-type: disc;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: flex-start; /* Moves the image to the left */
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    width: 500px; /* Smaller size */
+    height: auto;
+    margin-left: 20px; /* Adds spacing from the edge */
+}
+
+a {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
+footer {
+    background-color: #D8BFD8; /* Light purple */
+    padding: 15px;
+    width: 100%; /* Makes it full width */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
+header {
+    background-color: #D8BFD8; /* Light purple */
+    padding: 15px;
+    width: 100%; /* Makes it full width */
+    text-align: left;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
